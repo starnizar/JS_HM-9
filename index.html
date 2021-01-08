@@ -4,17 +4,26 @@
         <title>Home Work 9</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
-        <script src="script.js">
+        <script defer src="script.js">
 
         </script>
     </head>
     <body>
-        <div class="list">
+        <div class="toDoList">
             <div class="listName">
                 <h1>ToDo List</h1>
             </div>
             <div class="taskList">
-                <input type="text">
+                <input class="taskName" type="text">
+                <ul class="list">
+                    <li>
+                        <input type="checkbox"><span>Do Home Work</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="btns">
+                <button class="clear">Clear</button>
+                <button class="edit">Edit</button>
             </div>
         </div>
     </body>
